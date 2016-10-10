@@ -44,18 +44,23 @@ peripheral.readValueForCharacteristic(self.signatureChararacteristic)
 - The app then sends the signature, challenge, and identity to the verification endpoint.
 
 ```swift
-let params = [
-    "identity"  : identity,
-    "challenge" : challenge,
-    "signature" : signature
-]
+static func sendVerification(identity: String,
+                             challenge: String,
+                             signature: String,
+                             cb: (Response<AnyObject, NSError> -> ())) {
+    let params = [
+        "identity" : identity,
+        "challenge" : challenge,
+        "signature" : signature
+    ]
 
-let req = Alamofire.request(.POST,
-                            "\(Config.domain)verifyChallenge",
-                            parameters: params,
-                            encoding: .JSON,
-                            headers: headers)
-                            
-req.responseJSON(completionHandler: cb)
+    let req = Alamofire.request(.POST,
+                                "\(Config.domain)verifyChallenge",
+                                parameters: params,
+                                encoding: .JSON,
+                                headers: headers)
+
+    req.responseJSON(completionHandler: cb)
+}
 ```
 - The server will return whether or not the signature is verified. Using this response, the app will either reject or grand acccess to the chip.
