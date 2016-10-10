@@ -1,10 +1,10 @@
 # Drone Demo Controller
 iOS app for controlling Chronicled's drone demo
 
-# Description
+### Description
 This app verifies Chronicled BLE chips using Apple's [CoreBluetooth](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/CoreBluetooth_concepts/AboutCoreBluetooth/Introduction.html) library. This app also controls the demo's [lights](http://www2.meethue.com/en-us/about-hue?&origin=%7Cmckv%7CsC8ExIQm5_dc&pcrid=78454527516%7Cplid%7C&gclid=Cj0KEQjw1ee_BRD3hK6x993YzeoBEiQA5RH_BBB40tvaoMY9aw0S3Imvvsec8mek3GTGaNahySqvuEUaAovE8P8HAQ) and [drapes](http://www.lutron.com/en-US/Products/Pages/ShadingSystems/SivoiaQS/WindowTreatments/DraperySystems/Drapery.aspx)
 
-# Demo Explaination
+### Demo Explaination
 
 - Done approaches iPhone near drapes to be opened
 - This app discovers the chip and requests a challenge from the server. The identity used is the `deviceID`. A deviceID is a 6 byte unique hex string. `ble:1.0:1234567890ab`
