@@ -11,6 +11,7 @@ def source_pods
   pod "Curry", "2.3.3"
   pod "Alamofire", "3.5.0"
   pod "Argo", "3.1.0"
+  pod 'CryptoSwift', :git => "https://github.com/krzyzanowskim/CryptoSwift", :branch => "swift21"
 end
 
 target 'drone-demo-controller' do
