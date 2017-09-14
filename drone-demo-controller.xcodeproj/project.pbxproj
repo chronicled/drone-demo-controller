@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45453FFDFA0D6B8B03B72C27 /* Pods_drone_demo_controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF191342F3C60748A4290CF /* Pods_drone_demo_controller.framework */; };
+		49894A4CE7F6890675B113E5 /* Pods_drone_demo_controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9931FE55EDA60005C73D1AA /* Pods_drone_demo_controller.framework */; };
 		FC31A4F51DA308FA009C36C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A4F41DA308FA009C36C5 /* AppDelegate.swift */; };
 		FC31A4F71DA308FA009C36C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31A4F61DA308FA009C36C5 /* ViewController.swift */; };
 		FC31A4FA1DA308FA009C36C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31A4F81DA308FA009C36C5 /* Main.storyboard */; };
@@ -27,9 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1AF191342F3C60748A4290CF /* Pods_drone_demo_controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drone_demo_controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98FB3B589C40589566D70C94 /* Pods-drone-demo-controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drone-demo-controller.release.xcconfig"; path = "Pods/Target Support Files/Pods-drone-demo-controller/Pods-drone-demo-controller.release.xcconfig"; sourceTree = "<group>"; };
-		ACE3C1EC2B78B1430F9F1DE0 /* Pods-drone-demo-controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drone-demo-controller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-drone-demo-controller/Pods-drone-demo-controller.debug.xcconfig"; sourceTree = "<group>"; };
+		1BD428FD692E560688A5E429 /* Pods-drone-demo-controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drone-demo-controller.release.xcconfig"; path = "Pods/Target Support Files/Pods-drone-demo-controller/Pods-drone-demo-controller.release.xcconfig"; sourceTree = "<group>"; };
+		B3C569FF43060ADA2504090F /* Pods-drone-demo-controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drone-demo-controller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-drone-demo-controller/Pods-drone-demo-controller.debug.xcconfig"; sourceTree = "<group>"; };
+		D9931FE55EDA60005C73D1AA /* Pods_drone_demo_controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drone_demo_controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC31A4F11DA308FA009C36C5 /* drone-demo-controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drone-demo-controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC31A4F41DA308FA009C36C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC31A4F61DA308FA009C36C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,28 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45453FFDFA0D6B8B03B72C27 /* Pods_drone_demo_controller.framework in Frameworks */,
+				49894A4CE7F6890675B113E5 /* Pods_drone_demo_controller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1BB748CE3462169FAB502BB /* Pods */ = {
+		502DA5CE5E7ED83EAD305FCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACE3C1EC2B78B1430F9F1DE0 /* Pods-drone-demo-controller.debug.xcconfig */,
-				98FB3B589C40589566D70C94 /* Pods-drone-demo-controller.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F848C5AEFF133EEBB819EFD2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1AF191342F3C60748A4290CF /* Pods_drone_demo_controller.framework */,
+				D9931FE55EDA60005C73D1AA /* Pods_drone_demo_controller.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C69F08AC7DBE2ED36AFEFAE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3C569FF43060ADA2504090F /* Pods-drone-demo-controller.debug.xcconfig */,
+				1BD428FD692E560688A5E429 /* Pods-drone-demo-controller.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FC31A4E81DA308FA009C36C5 = {
@@ -84,8 +84,8 @@
 			children = (
 				FC31A4F31DA308FA009C36C5 /* drone-demo-controller */,
 				FC31A4F21DA308FA009C36C5 /* Products */,
-				A1BB748CE3462169FAB502BB /* Pods */,
-				F848C5AEFF133EEBB819EFD2 /* Frameworks */,
+				C69F08AC7DBE2ED36AFEFAE2 /* Pods */,
+				502DA5CE5E7ED83EAD305FCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,12 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC31A5031DA308FA009C36C5 /* Build configuration list for PBXNativeTarget "drone-demo-controller" */;
 			buildPhases = (
-				AAD0D1B533C8E1D8DB70EF33 /* Check Pods Manifest.lock */,
+				385FF2A446C0D7BB83D6A2A7 /* [CP] Check Pods Manifest.lock */,
 				FC31A4ED1DA308FA009C36C5 /* Sources */,
 				FC31A4EE1DA308FA009C36C5 /* Frameworks */,
 				FC31A4EF1DA308FA009C36C5 /* Resources */,
-				479AF7DF5B1F47046DF2D991 /* Embed Pods Frameworks */,
-				9DBF7F13BE9F5EBAD3E7134D /* Copy Pods Resources */,
+				9F093AE6008F66799FCF1531 /* [CP] Embed Pods Frameworks */,
+				E0B52D303C0D5F4BDA5FDB49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,11 +151,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Chronicled;
 				TargetAttributes = {
 					FC31A4F01DA308FA009C36C5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 29MPLV3FU2;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -191,14 +193,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		479AF7DF5B1F47046DF2D991 /* Embed Pods Frameworks */ = {
+		385FF2A446C0D7BB83D6A2A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F093AE6008F66799FCF1531 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,34 +223,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-drone-demo-controller/Pods-drone-demo-controller-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9DBF7F13BE9F5EBAD3E7134D /* Copy Pods Resources */ = {
+		E0B52D303C0D5F4BDA5FDB49 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-drone-demo-controller/Pods-drone-demo-controller-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AAD0D1B533C8E1D8DB70EF33 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -295,13 +297,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 29MPLV3FU2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -340,13 +345,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 29MPLV3FU2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -360,13 +368,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		FC31A5041DA308FA009C36C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACE3C1EC2B78B1430F9F1DE0 /* Pods-drone-demo-controller.debug.xcconfig */;
+			baseConfigurationReference = B3C569FF43060ADA2504090F /* Pods-drone-demo-controller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "drone-demo-controller/Info.plist";
@@ -374,12 +383,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Chronicled.drone-demo-controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		FC31A5051DA308FA009C36C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98FB3B589C40589566D70C94 /* Pods-drone-demo-controller.release.xcconfig */;
+			baseConfigurationReference = 1BD428FD692E560688A5E429 /* Pods-drone-demo-controller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "drone-demo-controller/Info.plist";
@@ -387,6 +397,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Chronicled.drone-demo-controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

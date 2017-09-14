@@ -2,7 +2,7 @@ import Foundation
 import Alamofire
 
 private let headers = ["Authorization" : "Bearer \(Config.bearer)"]
-private var IP: String?
+private var IP: String = "";
 
 struct Network {
     static func requestChallenge(identity: String, cb: (Response<AnyObject, NSError> -> ())) {
@@ -38,12 +38,12 @@ struct Network {
         let (strip, bulb) = status.lightConfigurations()
 
         Alamofire.request(.PUT,
-            "http://\(IP!)/api/\(Config.phillipsID)/lights/1/state",
+            "http://\(IP)/api/\(Config.phillipsID)/lights/1/state",
             parameters: strip,
             encoding: .JSON).responseJSON { _ in }
 
         Alamofire.request(.PUT,
-            "http://\(IP!)/api/\(Config.phillipsID)/lights/2/state",
+            "http://\(IP)/api/\(Config.phillipsID)/lights/2/state",
             parameters: bulb,
             encoding: .JSON).responseJSON { _ in }
     }
@@ -70,7 +70,6 @@ struct Network {
                 }
 
                 IP = String(value["internalipaddress"]!)
-                
                 completion()
             }
         }
